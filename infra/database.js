@@ -32,11 +32,13 @@ async function clearDatabase() {
   await query("DROP schema public cascade; create schema public;");
 }
 
-export default {
+const database = {
   query,
   clearDatabase,
   getNewClient,
 };
+
+export default database;
 
 function getSSLValue() {
   return process.env.NODE_ENV == "production" ? true : false;
