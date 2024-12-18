@@ -9,6 +9,8 @@ function Home() {
           className="rounded-full shadow-lg shadow-white/20"
           src="https://i.ibb.co/CM835pH/DALL-E-2024-11-25-15-17-57-A-vibrant-and-modern-Under-Construction-illustration-for-a-website-titled.webp"
           alt="DALL-E-2024-11-25-15-17-57-A-vibrant-and-modern-Under-Construction-illustration-for-a-website-titled"
+          width={500}
+          height={500}
           border="0"
         />
       </figure>
