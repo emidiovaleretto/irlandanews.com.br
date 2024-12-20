@@ -3,7 +3,7 @@ import orchestrator from "tests/orchestrator.js";
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
-  database.clearDatabase();
+  await database.clearDatabase();
 });
 
 describe("GET /api/v1/migrations", () => {
