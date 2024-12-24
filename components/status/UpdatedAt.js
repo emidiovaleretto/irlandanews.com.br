@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import fetchAPI from "../../lib/FetchAIP";
+import fetchAPI from "../../lib/FetchAPI";
 
 export default function UpdatedAt() {
   const { data, isLoading } = useSWR("/api/v1/status", fetchAPI, {
