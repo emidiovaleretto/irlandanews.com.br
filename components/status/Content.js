@@ -10,7 +10,7 @@ export default function DatabaseStatus() {
     refreshInterval: 2000,
   });
 
-  let databaseStatusInformation = "Carregando...";
+  let databaseStatusInformation = "Retrieving Data...";
 
   if (!isLoading && data) {
     databaseStatusInformation = (
